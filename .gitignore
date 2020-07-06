@@ -1,0 +1,26 @@
+# Project exclude paths
+/.gradle/
+/ASCII Text Signature/task/build/
+/ASCII Text Signature/task/out/
+/ASCII Text Signature/task/out/production/classes/
+/ASCII Text Signature/task/out/test/classes/
+/Problems/Case insensitive/out/
+/Problems/Case insensitive/out/production/classes/
+/Problems/Create a euphonious word/out/
+/Problems/Create a euphonious word/out/production/classes/
+/Problems/Cutting out the middle of a string/out/
+/Problems/Cutting out the middle of a string/out/production/classes/
+/Problems/Find the max/out/
+/Problems/Find the max/out/production/classes/
+/Problems/First digit/out/
+/Problems/First digit/out/production/classes/
+/Problems/Getting letters from the Alphabet/out/
+/Problems/Getting letters from the Alphabet/out/production/classes/
+/Problems/Move the first N characters/out/
+/Problems/Move the first N characters/out/production/classes/
+/Problems/Right Rotation/out/
+/Problems/Right Rotation/out/production/classes/
+/Problems/Unique characters/out/
+/Problems/Unique characters/out/production/classes/
+/Problems/We need to learn Kotlin/out/
+/Problems/We need to learn Kotlin/out/production/classes/
