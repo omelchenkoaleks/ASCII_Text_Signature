@@ -5,5 +5,9 @@ files:
   text: "fun main() {\n    // write your code here    \n}"
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/9045
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/9045">JetBrains
+    Academy</a></html>
+  time: Tue, 07 Jul 2020 09:37:35 UTC
 record: -1
