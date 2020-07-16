@@ -319,10 +319,24 @@ files:
 feedback_link: https://hyperskill.org/projects/71/stages/392/implement
 status: Failed
 feedback:
-  message: "Exception in test #1\n\nkotlin.KotlinNullPointerException\r\n\tat signature.MainKt.main(Main.kt:48)\r\
-    \n\tat signature.MainKt.main(Main.kt)\n\nPlease find below the output of your\
-    \ program during this failed test.\nNote that the &#39;&gt;&#39; character indicates\
-    \ the beginning of the input line.\n\n---\n\nEnter name and surname:\n&gt; Albert\
-    \ Einstein\nEnter person&#39;s status:"
-  time: Thu, 16 Jul 2020 13:11:09 UTC
+  message: |-
+    Wrong answer in test #1
+
+    Wrong output for the input line &quot;Albert Einstein&quot;.
+
+    Please find below the output of your program during this failed test.
+    Note that the &#39;&gt;&#39; character indicates the beginning of the input line.
+
+    ---
+
+    Enter name and surname:
+    &gt; Albert Einstein
+    Enter person&#39;s status:
+    ************************************************************************
+    *  ____ _    ___  ____ ____ ___      ____ _ _  _ ____ ___ ____ _ _  _  *
+    *  |__| |    |__] |___ |__/  |       |___ | |\ | [__   |  |___ | |\ |  *
+    *  |  | |___ |__] |___ |  \  |       |___ | | \| ___]  |  |___ | | \|  *
+    *                                 null                                 *
+    ************************************************************************
+  time: Thu, 16 Jul 2020 14:32:52 UTC
 record: -1

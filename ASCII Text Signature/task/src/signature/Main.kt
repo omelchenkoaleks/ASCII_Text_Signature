@@ -43,9 +43,9 @@ var allLengthStr = 0
 
 fun main() {
     println("Enter name and surname:")
-    name = readLine()!!
+    name = readLine().toString().trim()
     println("Enter person's status:")
-    status = readLine()!!
+    status = readLine().toString().trim()
 
     for (i in name.indices) {
         val l = name[i].toString().toLowerCase()
@@ -208,7 +208,6 @@ fun formatOnCenterName(quantity: Int) {
             count++
         }
         for (j in name.indices) {
-            val l = name[j].toString().toLowerCase()
             charNameTop.add(name[j])
         }
         for (k in charNameTop.indices) {
@@ -228,7 +227,6 @@ fun formatOnCenterName(quantity: Int) {
             count++
         }
         for (j2 in name.indices) {
-            val l = name[j2].toString().toLowerCase()
             charNameCenter.add(name[j2])
         }
         for (k2 in charNameCenter.indices) {
@@ -248,7 +246,6 @@ fun formatOnCenterName(quantity: Int) {
             count++
         }
         for (j3 in name.indices) {
-            val l = name[j3].toString().toLowerCase()
             charNameDown.add(name[j3])
         }
         for (k3 in charNameDown.indices) {
@@ -268,14 +265,13 @@ fun formatOnCenterName(quantity: Int) {
             count++
         }
         for (j in name.indices) {
-            val l = name[j].toString().toLowerCase()
             charNameTop.add(name[j])
         }
         for (k in charNameTop.indices) {
             val l = name[k].toString().toLowerCase()
             print("${letters[l]?.get(0)} ")
         }
-        for (l in 0..count - 1) {
+        for (l in 0 until count) {
             print(" ")
         }
         print("*")
@@ -288,14 +284,13 @@ fun formatOnCenterName(quantity: Int) {
             count++
         }
         for (j2 in name.indices) {
-            val l = name[j2].toString().toLowerCase()
             charNameCenter.add(name[j2])
         }
         for (k2 in charNameCenter.indices) {
             val l = name[k2].toString().toLowerCase()
             print("${letters[l]?.get(1)} ")
         }
-        for (l2 in 0..count - 1) {
+        for (l2 in 0 until count) {
             print(" ")
         }
         print("*")
@@ -308,14 +303,13 @@ fun formatOnCenterName(quantity: Int) {
             count++
         }
         for (j3 in name.indices) {
-            val l = name[j3].toString().toLowerCase()
             charNameDown.add(name[j3])
         }
         for (k3 in charNameDown.indices) {
             val l = name[k3].toString().toLowerCase()
             print("${letters[l]?.get(2)} ")
         }
-        for (l3 in 0..count - 1) {
+        for (l3 in 0 until count) {
             print(" ")
         }
         print("*")
@@ -328,7 +322,6 @@ fun formatOnCenterName(quantity: Int) {
             count++
         }
         for (j in name.indices) {
-            val l = name[j].toString().toLowerCase()
             charNameTop.add(name[j])
         }
         for (k in charNameTop.indices) {
@@ -348,7 +341,6 @@ fun formatOnCenterName(quantity: Int) {
             count++
         }
         for (j2 in name.indices) {
-            val l = name[j2].toString().toLowerCase()
             charNameCenter.add(name[j2])
         }
         for (k2 in charNameCenter.indices) {
@@ -368,7 +360,6 @@ fun formatOnCenterName(quantity: Int) {
             count++
         }
         for (j3 in name.indices) {
-            val l = name[j3].toString().toLowerCase()
             charNameDown.add(name[j3])
         }
         for (k3 in charNameDown.indices) {
@@ -388,14 +379,13 @@ fun formatOnCenterName(quantity: Int) {
             count++
         }
         for (j in name.indices) {
-            val l = name[j].toString().toLowerCase()
             charNameTop.add(name[j])
         }
         for (k in charNameTop.indices) {
             val l = name[k].toString().toLowerCase()
             print("${letters[l]?.get(0)} ")
         }
-        for (l in 0..count - 1) {
+        for (l in 0 until count) {
             print(" ")
         }
         print("*")
@@ -408,14 +398,13 @@ fun formatOnCenterName(quantity: Int) {
             count++
         }
         for (j2 in name.indices) {
-            val l = name[j2].toString().toLowerCase()
             charNameCenter.add(name[j2])
         }
         for (k2 in charNameCenter.indices) {
             val l = name[k2].toString().toLowerCase()
             print("${letters[l]?.get(1)} ")
         }
-        for (l2 in 0..count - 1) {
+        for (l2 in 0 until count) {
             print(" ")
         }
         print("*")
@@ -428,14 +417,13 @@ fun formatOnCenterName(quantity: Int) {
             count++
         }
         for (j3 in name.indices) {
-            val l = name[j3].toString().toLowerCase()
             charNameDown.add(name[j3])
         }
         for (k3 in charNameDown.indices) {
             val l = name[k3].toString().toLowerCase()
             print("${letters[l]?.get(2)} ")
         }
-        for (l3 in 0..count - 1) {
+        for (l3 in 0 until count) {
             print(" ")
         }
         print("*")
